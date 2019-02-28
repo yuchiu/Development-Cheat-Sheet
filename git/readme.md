@@ -1,4 +1,4 @@
-# Common Git Command
+# Git
 
 ## Quick Links
 
