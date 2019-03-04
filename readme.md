@@ -4,6 +4,6 @@
 
 ## Quick Links
 
-- [Git](https://github.com/yuchiu/note/tree/master/git)
-- [Terminal](https://github.com/yuchiu/note/tree/master/terminal)
-- [Docker](https://github.com/yuchiu/note/tree/master/docker)
+- [Git](https://github.com/yuchiu/Development-Cheat-Sheet/tree/master/git)
+- [Terminal](https://github.com/yuchiu/Development-Cheat-Sheet/tree/master/terminal)
+- [Docker](https://github.com/yuchiu/Development-Cheat-Sheet/tree/master/docker)

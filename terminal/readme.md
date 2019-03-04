@@ -6,6 +6,10 @@
 
 - [Core Commands](#Core-Commands)
 
+- [Netstat](#Netstat)
+
+- [Grep](#Grep)
+
 ## Shortcuts
 
 | **Shortcuts** | **description**                    |
@@ -17,10 +21,23 @@
 
 ## Core Commands
 
-| **Core Commands** | **description**                                                |
-| ----------------- | -------------------------------------------------------------- |
-| ls -l             | detail listing                                                 |
-| ls -a             | list file including "." hidden files                           |
-| ls -R             | list all files including contents inside directory recursively |
-| pwd               | full path of current directory                                 |
-| rm -rf            | force remove file or directory recursively                     |
+| **Commands** | **description**                                                |
+| ------------ | -------------------------------------------------------------- |
+| ls -l        | detail listing                                                 |
+| ls -a        | list file including "." hidden files                           |
+| ls -R        | list all files including contents inside directory recursively |
+| pwd          | full path of current directory                                 |
+| rm -rf       | force remove file or directory recursively                     |
+
+## Netstat
+
+| **Commands**  | **description**                                        |
+| ------------- | ------------------------------------------------------ |
+| netstat -tlnp | list all tcp port that are currently occupied with PID |
+
+## Grep
+
+| **Commands**           | **description**                               |
+| ---------------------- | --------------------------------------------- |
+| grep "xxx" FILENAME    | search for string or REGEX in file            |
+| grep -i "xxx" FILENAME | search for string as case insensitive in file |
