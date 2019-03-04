@@ -31,13 +31,20 @@
 
 ## Netstat
 
-| **Commands**  | **description**                                        |
-| ------------- | ------------------------------------------------------ |
-| netstat -tlnp | list all tcp port that are currently occupied with PID |
+| **Commands** | **description**                                         |
+| ------------ | ------------------------------------------------------- |
+| netstat -a   | list all tcp & udp port                                 |
+| netstat -t   | list all tcp port                                       |
+| netstat -u   | list all udp port                                       |
+| netstat -l   | list all tcp port that are currently listening          |
+| netstat -s   | show all stat by protocol                               |
+| netstat -p   | show all stat by protocol                               |
+| netstat -tlp | list all tcp port that are currently listening with PID |
 
 ## Grep
 
 | **Commands**           | **description**                               |
 | ---------------------- | --------------------------------------------- |
-| grep "xxx" FILENAME    | search for string or REGEX in file            |
+| grep "xxx" FILENAME    | search for string or REGEX in file/REGEX      |
 | grep -i "xxx" FILENAME | search for string as case insensitive in file |
+| grep -n "xxx" FILENAME | search for string in file with line number    |
